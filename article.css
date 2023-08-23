@@ -1,0 +1,978 @@
+/* .header,.middle,.right{
+    display: flex;
+    justify-content: space-around;
+   gap: 18px;
+   font-weight: bolder;
+}
+.w1,.w2{
+    display:flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.beige{
+    background:  #efdd95;
+   
+}
+
+.btn{
+    padding: 4px 18px 1px 16px;
+    background-color: transparent;
+    border:solid black 2px;
+}
+.st {
+    width: 225px;
+    height: 101px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 53px 0px 10px 2px;
+}
+.left1 {
+    margin: 25px 3px 38px 65px;
+}
+.right1 {
+    margin: 22px 99px 13px 1px;
+}
+.btt {
+    font-size: 43px;
+    font-weight: bolder;
+}
+.header {
+    margin: 3px 1px 2px 2px;
+    padding-top: 38px;
+}
+.btn1 button {
+    padding: 12px 30px 11px 33px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+}
+.bcard {
+    display: flex;
+    justify-content: space-around;
+}
+.card1,.card2,.card3 {
+    width: 257px;
+    height: 266px;
+}
+.w1{
+    margin: 69px 0px 13px 2px;
+
+}
+.w2{
+    color: #6c6c67;
+    margin: 11px 0px 60px 2px;
+}
+
+.card1,.card2,.card3 {
+    border-radius: 13px;
+}
+.img1{
+    width:200px;
+    border-radius: 20px;
+}
+.text {
+    position: relative;
+    top: 227px;
+    left: 15px;
+    background: white;
+    width: 45px;
+    padding: 10px 65px 10px 52px;
+}
+.im{
+    position: absolute;
+}
+img.rimg {
+    width: 268px;
+    height: 334px;
+    border-bottom-left-radius: 90px;
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.middle,.right{
+    display: none;
+}
+.fif{
+    font-size:30px;
+    font-weight: bolder;
+}
+.dropbtn {
+    background-color: #101111;
+    color: white;
+    padding: -11px 2px 2px 1px;
+    border-radius: 12px;
+}
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #0e0e0e;}
+
+.left{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    .beige {
+        background: linear-gradient(205deg, #ffffff 0%, #464454 100%);
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px 1px rgb(40, 39, 37);
+    }
+    
+    
+    .btn{
+        padding: 4px 18px 1px 16px;
+        background-color: transparent;
+        border:solid black 2px;
+    }
+    .st {
+        width: 225px;
+        height: 101px;
+    }
+    .main,.white {
+        display: grid;
+        justify-content: center;
+        margin: 53px 0px 10px 2px;
+    }
+    .left1 {
+        margin: 25px 3px 38px 65px;
+    }
+    .right1 {
+        margin: 22px 99px 13px 1px;
+    }
+    .btt {
+        font-size: 23px;
+        font-weight: bolder;
+    }
+    .header {
+        margin: 3px 1px 2px 2px;
+        padding-top: 38px;
+    }
+    .btn1 button {
+        padding: 12px 30px 11px 33px;
+        background-color: black;
+        color: white;
+        box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+    }
+    .bcard {
+        display:grid;
+        justify-content: center;
+        row-gap: 61px;
+       
+    }
+    .card1,.card2,.card3 {
+        width: 257px;
+        height: 266px;
+        border-radius: 13px;
+    }
+    
+    .w2 {
+        color: #6c6c67;
+      margin-top:20px;
+      margin-bottom:20px;
+        width: 252px;
+        height: 82px;
+    }
+    
+    .img1{
+        width:200px;
+        border-radius: 20px;
+    }
+    .text {
+        position: relative;
+        top: 227px;
+        left: 15px;
+        background: white;
+        width: 45px;
+        padding: 10px 65px 10px 52px;
+    }
+    .im{
+        position: absolute;
+    }
+    img.rimg {
+        width: 249px;
+        height: 331px;
+        border-radius: 33px;
+        box-shadow: 20px 10px 0px 0px rgb(2, 2, 2);
+    }
+    
+    .wimg{
+        width: 333px;
+        height: 420px;
+        border-radius: 55px
+      }
+      .tbody{
+       
+        margin-top: 67px;
+    display: flex;
+    gap: 35px;
+    padding: 13px 5px 15px 13px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+      }
+      .white1,.left2{
+        margin-top: 106px;
+        display: grid;
+        justify-content: center;
+
+    }
+    #ee{
+        display: flex;
+    }
+      #we{
+        font-size:10px;
+        margin-top: 10px;
+      }
+      #e{
+        margin:1px 2px 2px 2px;
+      }
+      .black {
+        justify-content: center;
+        
+        margin-top: 63px;
+        display: grid;
+        background-color: black;
+    }
+    .kcard{
+        margin: 75px 2px 71px 2px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .ttt{
+        padding:2px 12px 2px 12px;
+        margin:2px 0px 14px 8px
+    }
+    .kimg img{
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+        width: 255px;
+        height: 406px;
+    }
+    .text3{
+        font-size: 13px;
+        font-weight: 2px;
+        font-family: Lucida Console;
+    }
+    #text1{
+        color:#c5bfab;
+        font-size:10px;
+    }
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+   .dropdown{
+    display: none;
+   }
+
+
+    .header,.middle,.right{
+        display: flex;
+        justify-content: space-around;
+       gap: 18px;
+       font-weight: bolder;
+    }
+    .w1,.w2{
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    .beige{
+        background:  #efdd95;
+        box-shadow: 5px 5px 10px 1px rgb(226, 195, 18);
+       
+    }
+    
+    .btn{
+        padding: 4px 18px 1px 16px;
+        background-color: transparent;
+        border:solid black 2px;
+    }
+    .st {
+        width: 225px;
+        height: 101px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        margin: 53px 0px 10px 2px;
+    }
+    .left1 {
+        margin: 25px 3px 38px 65px;
+    }
+    .right1 {
+        margin: 22px 99px 13px 1px;
+    }
+    .btt {
+        font-size: 43px;
+        font-weight: bolder;
+    }
+    .header {
+        margin: 3px 1px 2px 2px;
+        padding-top: 38px;
+    }
+    .btn1 button {
+        padding: 12px 30px 11px 33px;
+        background-color: black;
+        color: white;
+        box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+    }
+    .bcard {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1,.card2,.card3 {
+        width: 257px;
+        height: 266px;
+    }
+    .w1{
+        margin: 69px 0px 13px 2px;
+    
+    }
+    .w2{
+        color: #6c6c67;
+        margin: 11px 0px 60px 2px;
+    }
+    
+    .card1,.card2,.card3 {
+        border-radius: 13px;
+    }
+    .img1{
+        width:200px;
+        border-radius: 20px;
+    }
+    .text {
+        position: relative;
+        top: 227px;
+        left: 15px;
+        background: white;
+        width: 45px;
+        padding: 10px 65px 10px 52px;
+    }
+    .im{
+        position: absolute;
+    }
+    img.rimg {
+        width: 268px;
+        height: 334px;
+        border-bottom-left-radius: 90px;
+        box-shadow: 20px 10px 0px 0px rgb(16, 16, 16);
+    } 
+    .white1{
+        margin-top: 106px;
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    }
+    
+    .wimg{
+        width: 277px;
+    height: 356px;
+      }
+      .tbody{
+        margin-top: 38px;
+        display: flex;
+        gap: 35px;
+        position: relative;
+        top: 10px;
+        right: 268px;
+        background-color: white;
+        padding:     2px 3px 4px 13px;
+        font-size: 20px;
+      }
+      #we{
+        font-size:10px;
+        margin-top: 10px;
+      }
+      #e{
+        margin:1px 2px 2px 2px;
+      }
+      .black {
+        justify-content: center;
+        gap: 4px;
+        margin-top: 63px;
+        display: flex;
+        background-color: black;
+    }
+    .kcard{
+        margin: 75px 2px 71px 2px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .ttt{
+        padding:2px 12px 2px 12px;
+        margin:2px 0px 14px 8px
+    }
+    .kimg img{
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+        width: 182px;
+    height: 230px;
+    }
+    .text3{
+        font-size: 13px;
+        font-weight: 2px;
+        font-family: Lucida Console;
+    }
+    #text1{
+        color:#c5bfab;
+        font-size:10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.dropdown{
+    display: none;
+}
+    .header,.middle,.right{
+        display: flex;
+        justify-content: space-around;
+       gap: 18px;
+       font-weight: bolder;
+    }
+    .w1,.w2{
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    .beige{
+        background:  #efdd95;
+        box-shadow: 5px 5px 10px 1px rgb(226, 195, 18);
+       
+    }
+    
+    .btn{
+        padding: 4px 18px 1px 16px;
+        background-color: transparent;
+        border:solid black 2px;
+    }
+    .st {
+        width: 225px;
+        height: 101px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        margin: 53px 0px 10px 2px;
+    }
+    .left1 {
+        margin: 25px 3px 38px 65px;
+    }
+    .right1 {
+        margin: 22px 99px 13px 1px;
+    }
+    .btt {
+        font-size: 43px;
+        font-weight: bolder;
+    }
+    .header {
+        margin: 3px 1px 2px 2px;
+        padding-top: 38px;
+    }
+    .btn1 button {
+        padding: 12px 30px 11px 33px;
+        background-color: black;
+        color: white;
+        box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+    }
+    .bcard {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1,.card2,.card3 {
+        width: 257px;
+        height: 266px;
+    }
+    .w1{
+        margin: 69px 0px 13px 2px;
+    
+    }
+    .w2{
+        color: #6c6c67;
+        margin: 11px 0px 60px 2px;
+    }
+    
+    .card1,.card2,.card3 {
+        border-radius: 13px;
+    }
+    .img1{
+        width:200px;
+        border-radius: 20px;
+    }
+    .text {
+        position: relative;
+        top: 227px;
+        left: 15px;
+        background: white;
+        width: 45px;
+        padding: 10px 65px 10px 52px;
+    }
+    .im{
+        position: absolute;
+    }
+    img.rimg {
+        width: 268px;
+        height: 334px;
+        border-bottom-left-radius: 90px;
+        box-shadow: 20px 10px 0px 0px beige;
+    } 
+    .left1{
+        background: url(./assets/leaf-removebg-preview.png) no-repeat;
+    }
+     
+    .wimg{
+        width:400px;
+        height:500px;
+      }
+      .tbody{
+        margin-top: 38px;
+        display: flex;
+        gap: 35px;
+        position: relative;
+        background-color: white;
+        top: 130px;
+        right: 268px;
+        padding: 13px 5px 15px 13px;
+        font-size: 20px;
+      }
+      .white1{
+        margin-top: 106px;
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    }
+      #we{
+        font-size:10px;
+        margin-top: 10px;
+      }
+      #e{
+        margin:1px 2px 2px 2px;
+      }
+      .black {
+        justify-content: center;
+        gap: 10px;
+        margin-top: 63px;
+        display: flex;
+        background-color: black;
+    }
+    .kcard{
+        margin: 75px 2px 71px 2px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .ttt{
+        padding:2px 12px 2px 12px;
+        margin:2px 0px 14px 8px
+    }
+    .kimg img{
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+        width: 233px;
+        height: 381px;
+    }
+    .text3{
+        font-size: 13px;
+        font-weight: 2px;
+        font-family: Lucida Console;
+    }
+    #text1{
+        color:#c5bfab;
+        font-size:10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .dropdown{
+        display: none;
+    }
+    .header,.middle,.right{
+        display: flex;
+        justify-content: space-around;
+       gap: 18px;
+       font-weight: bolder;
+       
+    }
+    .w1,.w2{
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    .beige{
+        background:  #efdd95;
+        background-image: url(./assets/leaf-removebg-preview.png) no-repeat;
+        box-shadow: 5px 5px 10px 1px rgb(226, 195, 18);
+    }
+    
+    .btn{
+        padding: 4px 18px 1px 16px;
+        background-color: transparent;
+        border:solid black 2px;
+    }
+    .st {
+        width: 225px;
+        height: 101px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        margin: 53px 0px 10px 2px;
+    }
+    .left1 {
+        margin: 25px 3px 38px 65px;
+    }
+    .right1 {
+        margin: 22px 99px 13px 1px;
+    }
+    .btt {
+        font-size: 43px;
+        font-weight: bolder;
+    }
+    .header {
+        margin: 3px 1px 2px 2px;
+        padding-top: 38px;
+    }
+    .btn1 button {
+        padding: 12px 30px 11px 33px;
+        background-color: black;
+        color: white;
+        box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+    }
+    .bcard {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1,.card2,.card3 {
+        width: 257px;
+        height: 266px;
+    }
+    .w1{
+        margin: 69px 0px 13px 2px;
+    
+    }
+    .w2{
+        color: #6c6c67;
+        margin: 11px 0px 60px 2px;
+    }
+    
+    .card1,.card2,.card3 {
+        border-radius: 13px;
+    }
+    .img1{
+        width:200px;
+        border-radius: 20px;
+    }
+    .text {
+        position: relative;
+        top: 227px;
+        left: 15px;
+        background: white;
+        width: 45px;
+        padding: 10px 65px 10px 52px;
+    }
+    .im{
+        position: absolute;
+    }
+    img.rimg {
+        width: 268px;
+        height: 334px;
+        border-bottom-left-radius: 90px;
+        box-shadow: 20px 10px 0px 0px rgb(20, 20, 20);
+    } 
+    .white1{
+        margin-top: 106px;
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    }
+    .wimg{
+        width:400px;
+        height:500px;
+      }
+      .tbody{
+        margin-top: 38px;
+        display: flex;
+        gap: 35px;
+        position: relative;
+        background-color: white;
+        font-weight: bolder;
+        top: 130px;
+        right: 268px;
+        padding: 13px 5px 15px 13px;
+        font-size: 20px;
+      }
+      #we{
+        font-size:10px;
+        margin-top: 10px;
+      }
+      #e{
+        margin:1px 2px 2px 2px;
+      }
+      .black {
+        justify-content: center;
+        gap: 17px;
+        margin-top: 63px;
+        display: flex;
+        background-color: black;
+    }
+    .kcard{
+        margin: 75px 2px 71px 2px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .ttt{
+        padding:2px 12px 2px 12px;
+        margin:2px 0px 14px 8px
+    }
+    .kimg img{
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+        width: 266px;
+    height: 363px;
+}
+    
+    .text3{
+        font-size: 13px;
+        font-weight: 2px;
+        font-family: Lucida Console;
+    }
+    #text1{
+        color:#c5bfab;
+        font-size:10px;
+    }
+   
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .dropdown{
+        display: none;
+    }
+
+.beige{
+    background-image: url(./assets/leaf-removebg-preview.png);
+}
+    .header,.middle,.right{
+        display: flex;
+        justify-content: space-around;
+       gap: 18px;
+       font-weight: bolder;
+    }
+    .w1,.w2{
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    .beige{
+        background:  #efdd95;
+        box-shadow: 5px 5px 10px 1px rgb(226, 195, 18);
+     
+       
+    }
+    
+    .btn{
+        padding: 4px 18px 1px 16px;
+        background-color: transparent;
+        border:solid black 2px;
+    }
+    .st {
+        width: 225px;
+        height: 101px;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin: 53px 114px 72px 10px;
+    
+     
+    }
+    .left1 {
+        margin: 25px 3px 38px 65px;
+    }
+    .right1 {
+        margin: 22px 99px 13px 1px;
+    }
+    .btt {
+        font-size: 43px;
+        font-weight: bolder;
+    }
+    .header {
+        margin: 3px 1px 2px 2px;
+        padding-top: 38px;
+    }
+    .btn1 button {
+        padding: 12px 30px 11px 33px;
+        background-color: black;
+        color: white;
+        box-shadow: 1px 6px 1px 1px  rgb(52, 51, 51);
+    }
+    .bcard {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1,.card2,.card3 {
+        width: 257px;
+        height: 266px;
+    }
+    .w1{
+        margin: 69px 0px 13px 2px;
+    
+    }
+    .w2{
+        color: #6c6c67;
+        margin: 11px 0px 60px 2px;
+    }
+    
+    .card1,.card2,.card3 {
+        border-radius: 13px;
+    }
+    .img1{
+        width:200px;
+        border-radius: 20px;
+    }
+    .text {
+        position: relative;
+        top: 227px;
+        left: 15px;
+        background: white;
+        width: 45px;
+        padding: 10px 65px 10px 52px;
+    }
+    .im{
+        position: absolute;
+    }
+    .white1 {
+        margin: 150px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+       
+    }
+    img.rimg {
+        width: 268px;
+        height: 334px;
+        border-bottom-left-radius: 90px;
+        box-shadow: 20px 10px 0px 0px rgb(19, 19, 18);
+    }
+    
+      .wimg{
+        width:400px;
+        height:500px;
+      }
+      .tbody{
+        margin-top: 38px;
+        background-color: white;
+        display: flex;
+        gap: 35px;
+        position: relative;
+        top: 130px;
+        right: 268px;
+        padding: 13px 5px 15px 13px;
+        font-size: 20px;
+      }
+      #we{
+        font-size:10px;
+        margin-top: 10px;
+      }
+      #e{
+        margin:1px 2px 2px 2px;
+      }
+      .black {
+        justify-content: center;
+        gap: 68px;
+        margin-top: 63px;
+        display: flex;
+        background-position: right;
+        background:  black;
+      
+    }
+    .kcard{
+        background: url(./assets/leaf-removebg-preview.png) repeat;
+        margin: 75px 2px 71px 2px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .ttt{
+        padding:2px 12px 2px 12px;
+        margin:2px 0px 14px 8px
+    }
+    .kimg img{
+        border-top-left-radius:20px ;
+        border-top-right-radius:20px ;
+        width: 253px;
+        height: 394px
+    }
+    .text3{
+        font-size: 13px;
+        font-weight: 2px;
+        font-family: Lucida Console;
+    }
+    #text1{
+        color:#c5bfab;
+        font-size:10px;
+    }
+   
+    
+}
